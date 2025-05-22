@@ -12,11 +12,11 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Interclubes DePádel - Liga de clubes de pádel",
+    default: "Interclubes DePádel",
     template: "%s - Interclubes DePádel",
   },
   description:
-    "Interclubes DePádel se desarrolla desde el mes de Marzo hasta el mes de Diciembre en 2 torneos a jugarse los días Domingos, disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club.",
+    "Liga de clubes de pádel desarrollada desde el mes de Marzo hasta el mes de Diciembre en 2 torneos a jugarse los días Domingos, disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club.",
   icons: {
     icon: "/assets/favicon.png",
     shortcut: "/assets/favicon.png",
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "es_AR",
     url: "https://interclubesdepadel.com.ar",
-    title: "Interclubes DePádel - Liga de clubes de pádel",
+    title: "Interclubes DePádel",
     description:
-      "Interclubes DePádel se desarrolla desde el mes de Marzo hasta el mes de Diciembre en 2 torneos a jugarse los días Domingos, disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club.",
+      "Liga de clubes de pádel desarrollada desde el mes de Marzo hasta el mes de Diciembre en 2 torneos a jugarse los días Domingos, disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club.",
     images: [
       {
         url: "/assets/cover.png",
