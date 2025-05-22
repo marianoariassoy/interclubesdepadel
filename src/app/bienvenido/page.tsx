@@ -112,7 +112,7 @@ const Page = () => {
 
   return (
     <section>
-      <div className="flex flex-col gap-y-6 max-w-md m-auto lg:max-w-none">
+      <div className="w-full flex flex-col gap-y-6 max-w-md m-auto lg:max-w-none">
         <Title
           title="¡Bienvenido!"
           emoji="👋"

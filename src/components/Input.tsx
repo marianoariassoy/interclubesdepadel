@@ -9,7 +9,7 @@ interface Input {
 
 const Input = ({ type, title, placeholder, register }: Input) => {
   return (
-    <div>
+    <div className="w-full">
       <label className="block mb-2">
         <span className="text-primary text-sm font-medium">{title}</span>
       </label>
