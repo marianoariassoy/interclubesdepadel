@@ -190,7 +190,7 @@ const Page = () => {
                     type="date"
                     defaultValue="1979-05-19"
                     id="date"
-                    className="w-full h-12 border-primary border bg-transparent px-4 text-sm focus:outline-none focus:ring-0 placeholder:text-secondary rounded-lg mb-2"
+                    className="w-full h-14 border-primary border bg-transparent px-4 text-sm focus:outline-none focus:ring-0 placeholder:text-secondary rounded-lg mb-2"
                     {...register("birthday", { required: errorMessage })}
                   />
                 </div>
@@ -206,7 +206,7 @@ const Page = () => {
                   type="file"
                   accept="image/*"
                   name="file"
-                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-2 file:py-3 file:h-12 file:text-sm file:font-semibold hover:file:bg-secondary file:cursor-pointer file:w-20 lg:file:w-auto lg:file:px-4"
+                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-2 file:py-3 file:h-14 file:text-sm file:font-semibold hover:file:bg-secondary file:cursor-pointer file:w-20 lg:file:w-auto lg:file:px-4"
                   onChange={getFile}
                   required
                 />
