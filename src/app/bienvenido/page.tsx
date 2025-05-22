@@ -100,7 +100,7 @@ const Page = () => {
         <Title
           title="¡Bienvenido!"
           emoji="👋"
-          description="Completá el formulario con tus datos y se parte de los Interclubes DePádel."
+          description="Completá el formulario con tus datos y se parte de nuestro interclubes de pádel."
         />
 
         <div className="w-full m-auto">
