@@ -8,6 +8,7 @@ import toast, { Toaster } from "react-hot-toast";
 import Title from "@/components/Title";
 import Input from "@/components/Input";
 import Button from "@/components/Button";
+import Select from "@/components/Select";
 import Loader from "@/components/Loader2";
 import Error from "./Error";
 
@@ -19,6 +20,8 @@ interface User {
   email: string;
   dni: string;
   birthday: string;
+  club: string;
+  category: string;
 }
 
 const Page = () => {
@@ -94,6 +97,19 @@ const Page = () => {
       />
     );
 
+  const categories = [
+    { value: "1", label: "Primera" },
+    { value: "2", label: "Segunda" },
+    { value: "3", label: "Tercera" },
+    { value: "4", label: "Cuarta" },
+    { value: "5", label: "Quinta" },
+    { value: "6", label: "Sexta" },
+    { value: "7", label: "Septima" },
+    { value: "8", label: "Octava" },
+    { value: "9", label: "Novena" },
+    { value: "10", label: "Otro" },
+  ];
+
   return (
     <section>
       <div className="flex flex-col gap-y-6 max-w-md m-auto lg:max-w-none">
@@ -144,6 +160,7 @@ const Page = () => {
                   register={register("location")}
                 />
               </div>
+
               <div className="form-control">
                 <Input
                   type="email"
@@ -180,6 +197,27 @@ const Page = () => {
               </div>
 
               <div className="form-control">
+                <Select
+                  options={categories}
+                  title="Categoría"
+                  register={register("category", {
+                    required: errorMessage,
+                  })}
+                />
+
+                <Error error={errors.email} />
+              </div>
+              <div className="form-control">
+                <Input
+                  type="text"
+                  title="Club"
+                  placeholder="Gral. San Martín"
+                  register={register("club")}
+                />
+                <Error error={errors.dni} />
+              </div>
+
+              <div className="form-control">
                 <label className="text-sm mb-2 block">
                   <span className="text-primary font-medium">
                     Fecha de nacimiento
@@ -199,14 +237,14 @@ const Page = () => {
               <div className="form-control">
                 <label className="text-sm mb-2 block">
                   <span className="text-primary font-medium">
-                    Foto de perfil
+                    Foto de perfil (jpeg o png)
                   </span>
                 </label>
                 <input
                   type="file"
-                  accept="image/*"
+                  accept="image/jpeg, image/png"
                   name="file"
-                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-2 file:py-3 file:h-14 file:text-sm file:font-semibold hover:file:bg-secondary file:cursor-pointer file:w-20 lg:file:w-auto lg:file:px-4"
+                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-2 file:py-3 file:h-14 file:text-sm file:font-semibold hover:file:bg-white/80 file:cursor-pointer file:w-20 lg:file:w-auto lg:file:px-4"
                   onChange={getFile}
                   required
                 />
