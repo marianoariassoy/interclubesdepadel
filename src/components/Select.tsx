@@ -36,7 +36,7 @@ const Input = ({ options, register, title }: Input) => {
             className="w-4 h-4"
             fill="none"
             stroke="currentColor"
-            stroke-width="2"
+            strokeWidth="2"
             viewBox="0 0 24 24"
           >
             <path d="M19 9l-7 7-7-7" />

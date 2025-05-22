@@ -111,7 +111,7 @@ const Page = () => {
   ];
 
   return (
-    <section>
+    <section className="">
       <div className="w-full flex flex-col gap-y-6 max-w-md m-auto lg:max-w-none">
         <Title
           title="¡Bienvenido!"
@@ -119,9 +119,9 @@ const Page = () => {
           description="Completá el formulario con tus datos y se parte de nuestro interclubes de pádel."
         />
 
-        <div className="w-full m-auto">
+        <div className="w-full">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="grid lg:grid-cols-2 gap-x-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
               <div className="form-control">
                 <Input
                   type="text"
@@ -244,7 +244,7 @@ const Page = () => {
                   type="file"
                   accept="image/jpeg, image/png"
                   name="file"
-                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-2 file:py-3 file:h-14 file:text-sm file:font-semibold hover:file:bg-white/80 file:cursor-pointer file:w-20 lg:file:w-auto lg:file:px-4"
+                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-2 file:py-3 file:h-14 file:text-sm file:font-semibold hover:file:bg-white/80 file:cursor-pointer lg:file:px-4"
                   onChange={getFile}
                   required
                 />
