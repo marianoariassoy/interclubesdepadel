@@ -199,14 +199,14 @@ const Page = () => {
               <div className="form-control">
                 <label className="text-sm mb-2 block">
                   <span className="text-primary font-medium">
-                    Foto de perfil (obligatorio)
+                    Foto de perfil
                   </span>
                 </label>
                 <input
                   type="file"
                   accept="image/*"
                   name="file"
-                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-4 file:py-3 file:h-12 file:text-sm file:font-semibold hover:file:bg-secondary file:cursor-pointer"
+                  className="file:mr-4 file:rounded-lg file:border-0 file:bg-primary file:px-2 file:py-3 file:h-12 file:text-sm file:font-semibold hover:file:bg-secondary file:cursor-pointer file:w-20 lg:file:w-auto lg:file:px-4"
                   onChange={getFile}
                   required
                 />
