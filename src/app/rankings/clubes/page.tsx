@@ -1,7 +1,6 @@
 import Title from "@/components/Title";
 import Item from "@/components/Item";
 import Labels from "@/components/Labels";
-import { Info } from "@/lib/icons";
 
 export const metadata = {
   title: "Ranking de Clubes",
