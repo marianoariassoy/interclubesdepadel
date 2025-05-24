@@ -1,12 +1,12 @@
 export const categories = [
   {
-    name: "Caballeros Quinta",
+    name: "Caballeros C5",
     url: "/torneos/1",
     slug: "caballeros-quinta",
     id: 1,
   },
-  { name: "Caballeros Sexta", url: "/soon", slug: "segunda-libre", id: 2 },
-  { name: "Caballeros Septima", url: "/soon", slug: "segunda-libre", id: 2 },
+  { name: "Caballeros C6", url: "/soon", slug: "segunda-libre", id: 2 },
+  { name: "Caballeros C7", url: "/soon", slug: "segunda-libre", id: 2 },
 ];
 
 export const menu = [
