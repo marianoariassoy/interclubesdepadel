@@ -23,10 +23,6 @@ const groups = async ({ id_tournament }: { id_tournament: string }) => {
       value: "Puntos (parciales)",
     },
     {
-      name: "SG",
-      value: "Series ganadas",
-    },
-    {
       name: "DS",
       value: "Diferencia de sets",
     },

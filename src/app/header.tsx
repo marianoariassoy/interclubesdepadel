@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect } from "react";
 import { Instagram, Menu } from "@/lib/icons";
 import Link from "next/link";
@@ -11,7 +12,6 @@ const Header = () => {
   const pathname = usePathname();
 
   useEffect(() => {
-    // const logo = document.querySelector(".logo-main") as HTMLElement;
     const header = document.querySelector("#header") as HTMLElement;
 
     if (pathname === "/") {
@@ -19,24 +19,16 @@ const Header = () => {
     } else {
       header.classList.add("backdrop-blur");
     }
-
-    // window.onscroll = () => {
-    //   if (window.scrollY > 0) {
-    //     logo.classList.add("text-xs");
-    //   } else {
-    //     logo.classList.remove("text-xs");
-    //   }
-    // };
   }, [pathname]);
 
   // useEffect(() => {
   //   ReactGA.initialize("G-G1DBH0K86R");
   // }, []);
 
-  // const handleMenu = () => {
-  //   const nav = document.querySelector("#menu") as HTMLElement;
-  //   nav.classList.toggle("hidden");
-  // };
+  const handleMenu = () => {
+    const nav = document.querySelector("#menu") as HTMLElement;
+    nav.classList.toggle("hidden");
+  };
 
   return (
     <>
@@ -45,18 +37,22 @@ const Header = () => {
         id="header"
       >
         <div className="flex-1">
-          <button className="hover:text-primary" aria-label="Menu">
+          <button
+            className="hover:text-primary"
+            aria-label="Menu"
+            onClick={handleMenu}
+          >
             <Menu />
           </button>
         </div>
         <div className=" flex justify-center text-primary logo-main transition-all">
           <Link href="/" aria-label="Logo">
-            <img
+            <Image
               src="/assets/logo.svg"
               alt="Logo IDP"
               className="w-20"
-              width="80px"
-              height="80px"
+              width={80}
+              height={80}
             />
           </Link>
         </div>

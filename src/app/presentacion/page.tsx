@@ -29,7 +29,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`,
     },
     {
       title: "🔞 ¿Hay restricciones por edad?",
-      text: `Todas las categorías son libres de edad.`,
+      text: `Todas las categorías son libres de edad (mayores de 14 años).`,
     },
     {
       title: "🌍 ¿Dónde se juega?",

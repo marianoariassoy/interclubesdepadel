@@ -6,7 +6,7 @@ const info = ({ text }: { text: string }) => {
       <span className="text-primary">
         <Info />
       </span>
-      <span className="text-secondary whitespace-break-spaces">{text}</span>
+      <span className="whitespace-break-spaces">{text}</span>
     </div>
   );
 };

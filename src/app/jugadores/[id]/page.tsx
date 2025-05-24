@@ -19,13 +19,13 @@ export async function generateMetadata({
 
   return {
     title: data.name,
-    description: `Perfil del jugador ${data.name} de la liga de clubes IML Tenis`,
+    description: `Perfil del jugador ${data.name} en Interclubes DePádel`,
     openGraph: {
       type: "website",
       locale: "es_AR",
-      url: `https://imltenis.com.ar/jugadores/${id}`,
+      url: `https://interclubesdepadel.com.ar/jugadores/${id}`,
       title: data.name,
-      description: `Perfil del jugador ${data.name} de la liga de clubes IML Tenis`,
+      description: `Perfil del jugador ${data.name} en Interclubes DePádel`,
       images: [
         {
           url: data.image,
@@ -68,9 +68,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
         </div>
         <div className="text-center">
           <h1 className="font-semibold text-primary">{data.name}</h1>
-          <h2 className="text-secondary text-sm">
-            {data.age ? data.age : null}
-          </h2>
+          <h2 className="text-sm">{data.age ? data.age : null}</h2>
         </div>
       </header>
 
@@ -79,7 +77,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
       <Doubles id={id} />
       <Equipos id={id} />
 
-      <Aviso text="En caso de existir algún error en la información o queres agregar o cambiar tu foto de perfil, envianos un correo a hola@imltenis.com.ar" />
+      <Aviso text="En caso de existir algún error en la información o queres agregar o cambiar tu foto de perfil, envianos un correo a hola@interclubesdepadel.com.ar" />
     </section>
   );
 };

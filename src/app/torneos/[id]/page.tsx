@@ -19,19 +19,19 @@ export async function generateMetadata({
 
   return {
     title: `${data.name} ${data.season}`,
-    description: `Torneo ${data.name} ${data.season} de la liga de clubes IML Tenis`,
+    description: `Torneo ${data.name} ${data.season} de la liga Interclubes DePádel`,
     openGraph: {
       type: "website",
       locale: "es_AR",
-      url: `https://imltenis.com.ar/torneos/${id}`,
+      url: `https://interclubesdepadel.com.ar/torneos/${id}`,
       title: `${data.name} ${data.season}`,
-      description: `Torneo ${data.name} ${data.season} de la liga de clubes IML Tenis`,
+      description: `Torneo ${data.name} ${data.season} de la liga Interclubes DePádel`,
       images: [
         {
-          url: "https://imltenis.com.ar/assets/imltenis.jpg",
+          url: "https://interclubesdepadel.com.ar/assets/cover.png",
           width: 500,
           height: 500,
-          alt: "IML Tenis Liga de clubes de Buenos Aires",
+          alt: "Interclubes DePádel",
         },
       ],
     },

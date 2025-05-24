@@ -20,13 +20,13 @@ export async function generateMetadata({
 
   return {
     title: data.name,
-    description: `Perfil del club ${data.name} de la liga de clubes IML Tenis`,
+    description: `Perfil del club ${data.name} en la liga Interclubes DePádel`,
     openGraph: {
       type: "website",
       locale: "es_AR",
-      url: `https://imltenis.com.ar/clubes/${id}`,
+      url: `https://interclubesdepadel.com.ar/clubes/${id}`,
       title: data.name,
-      description: `Perfil del club ${data.name} de la liga de clubes IML Tenis`,
+      description: `Perfil del club ${data.name} en la liga Interclubes DePádel`,
       images: [
         {
           url: data.image,

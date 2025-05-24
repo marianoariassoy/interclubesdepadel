@@ -9,14 +9,22 @@ const page = () => {
     <section className="flex flex-col gap-y-3 text-sm">
       <Title title="¡Hola!" emoji="👋" />
 
-      <div className="flex flex-col gap-y-6 px-6 text-center max-w-2xl mx-auto">
-        <div>
-          IML Tenis nació en marzo de 2023 con la misión de crear un espacio
-          competitivo, accesible y apasionante para los clubes de tenis. Hoy
-          contamos con más de 120 equipos de diferentes clubes y más de 2500
-          jugadores compitiendo en 11 categorías.
-        </div>
-        <div></div>
+      <div className="flex flex-col gap-y-6 px-6 text-center max-w-2xl mx-auto [&>p>span]:font-bold [&>p>span]:text-primary">
+        <p>
+          <span>DePádel</span>, creador de uno de los circuitos de pádel más
+          importantes de Argentina, e <span>IML Tenis</span>, líder en torneos
+          de tenis por equipos, se unen para impulsar los interclubes de pádel
+          en todo el país.
+          <br />
+          <br />
+          Vas a poder formar parte de{" "}
+          <span>una nueva forma de competir en el pádel.</span> Participá con tu
+          grupo de amigos representando tu club, jugando en tus canchas, también
+          conociendo nuevos lugares y jugadores cada semana. Siempre con
+          resultados y rankings actualizados en nuestro sitio web.
+          <br /> <br />
+          <span>Bienvenido a Interclubes DePádel</span>
+        </p>
       </div>
     </section>
   );

@@ -17,10 +17,15 @@ const JugadoresEquipos = async ({ id }: { id: string }) => {
     `${process.env.NEXT_PUBLIC_API_URL}/players/${id}/teams`
   );
   const data = (await response.json()) as Item[];
-  if (!data) return null;
+  if (!data)
+    return (
+      <div className="text-center text-sm font-semibold text-primary">
+        No pertenece a ningún equipo
+      </div>
+    );
 
   return (
-    <section className="fade-in flex flex-col gap-y-3">
+    <section className="flex flex-col gap-y-3">
       <h1 className="text-center text-sm font-semibold text-primary">
         Equipos
       </h1>

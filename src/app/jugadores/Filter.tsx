@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Item from "@/components/Item";
+import Item from "@/components/ItemMedium";
 import { Player } from "@/types";
 
 const Filter = ({ data }: { data: Player[] }) => {
@@ -28,17 +28,16 @@ const Filter = ({ data }: { data: Player[] }) => {
         placeholder="Buscar por nombre o apellido"
         value={filter}
         onChange={handleFilter}
-        className="w-full h-12 border border-white/10 dark:border-black/10 rounded-lg bg-transparent px-4 text-sm focus:outline-none focus:ring-0 placeholder:text-secondary"
+        className="w-full h-12 border border-white/50 dark:border-black/10 rounded-lg bg-transparent px-4 text-sm focus:outline-none focus:ring-0 placeholder:text-secondary"
       />
 
-      <div className="flex flex-col gap-y-3">
+      <div className="flex flex-col gap-y-2">
         {filteredData.map((item) => (
           <div key={item.id}>
             <Item
               image={item.image}
               title={item.name}
               link={`/jugadores/${item.id}`}
-              active={false}
             />
           </div>
         ))}

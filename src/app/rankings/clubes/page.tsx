@@ -5,19 +5,19 @@ import { Info } from "@/lib/icons";
 
 export const metadata = {
   title: "Ranking de Clubes",
-  description: "Ranking de Clubes de la liga de clubes IML Tenis",
+  description: "Ranking de Clubes en Interclubes DePádel",
   openGraph: {
     type: "website",
     locale: "es_AR",
-    url: "https://imltenis.com.ar/rankings/clubes",
+    url: "https://interclubesdepadel.com.ar/rankings/clubes",
     title: "Ranking de Clubes",
-    description: "Ranking de Clubes de la liga de clubes IML Tenis",
+    description: "Ranking de Clubes en Interclubes DePádel",
     images: [
       {
-        url: "/assets/imltenis.jpg",
+        url: "/assets/cover.png",
         width: 500,
         height: 500,
-        alt: "IML Tenis",
+        alt: "Interclubes DePádel",
       },
     ],
   },
@@ -54,10 +54,6 @@ const page = async () => {
       value: "Puntos (Parciales ganados)",
     },
     {
-      name: "SG",
-      value: "Series ganadas",
-    },
-    {
       name: "SJ",
       value: "Series jugadas",
     },
@@ -77,42 +73,29 @@ const page = async () => {
             </tr>
           </thead>
           <tbody>
-            {data
-              .filter((item) => +item.matches_won > 0)
-              .map((item, index) => (
-                <tr
-                  key={item.id}
-                  className={`${index === 0 ? "text-primary" : ""}`}
-                >
-                  <td>
-                    <Item
-                      num={index + 1}
-                      image={item.image}
-                      title={item.name}
-                      link={`/clubes/${item.id}`}
-                      active={false}
-                    />
-                  </td>
-                  <td className="font-semibold">{item.matches_won}</td>
-                  <td>{item.series_won}</td>
-                  <td>{item.series_total}</td>
-                </tr>
-              ))}
+            {data.map((item, index) => (
+              <tr
+                key={item.id}
+                className={`${index === 0 ? "text-primary" : ""}`}
+              >
+                <td>
+                  <Item
+                    num={index + 1}
+                    image={item.image}
+                    title={item.name}
+                    link={`/clubes/${item.id}`}
+                    active={false}
+                  />
+                </td>
+                <td className="font-semibold">{item.matches_won}</td>
+                <td>{item.series_total}</td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
 
       <Labels labels={labels} />
-
-      <div className="flex gap-x-2 text-sm p-3 lg:p-6 bg-black/10 rounded-xl">
-        <span className="text-primary mt-1 lg:mt-0">
-          <Info />
-        </span>
-        <span className="text-secondary whitespace-break-spaces">
-          Al final de la temporada anual los 4 clubes mejor ubicados disputarán
-          las super finales.
-        </span>
-      </div>
     </section>
   );
 };

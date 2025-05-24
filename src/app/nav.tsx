@@ -61,7 +61,7 @@ const Menu = () => {
             Registro de jugadores
           </Link>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://capitanes.imltenis.com.ar/"
             target="_blank"
@@ -70,7 +70,7 @@ const Menu = () => {
           >
             Capitanes
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

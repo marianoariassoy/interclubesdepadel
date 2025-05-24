@@ -50,7 +50,6 @@ const Tabla = async ({
                 <td>
                   <span className="font-semibold">{item.match_won}</span>
                 </td>
-                <td>{item.series_won}</td>
                 <td>{item.sets}</td>
                 <td>{item.games}</td>
                 <td>{item.series_total}</td>
