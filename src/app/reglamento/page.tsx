@@ -17,8 +17,8 @@ En cada fecha, se jugarán dos enfrentamientos entre equipos, con dos clubes rep
       text: `En cada enfrentamiento entre equipos se jugarán dos partidos de dobles, ya sea en simultáneo o de forma continuada: Doble 1 y Doble 2.
       Cada partido se disputará al mejor de 3 sets, con punto de oro.
       Cada partido ganado suma 1 punto para el equipo. Las series podrán terminar empatadas en la fase de grupos; en ese caso, cada equipo sumará 1 punto en la tabla.
-      En instancias de playoffs, si la serie termina empatada, se disputará un tercer punto definitorio, jugado a un solo set, con los jugadores que cada capitán elija. Se podrán incluir jugadores que ya hayan participado en los partidos anteriores.
-      Cada jugador podrá disputar solo un partido por serie.
+      Cada jugador podrá disputar solo un partido por serie, con excepción de tercer punto. En instancias de playoffs, si la serie termina empatada, se disputará un tercer punto definitorio, jugado a un solo set, con los jugadores que cada capitán elija. Se podrán incluir jugadores que ya hayan participado en los partidos anteriores.
+      
       En caso de jugarse los partidos de forma continuada, se deberá comenzar siempre con el Doble 1, y el segundo partido deberá iniciar a más tardar a las 17:00 hs.
       `,
     },
