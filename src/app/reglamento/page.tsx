@@ -9,21 +9,24 @@ const page = () => {
   const data = [
     {
       title: "",
-      text: `La presente liga de clubes se desarrolla desde el mes de marzo hasta el mes de diciembre en 2 torneos a jugarse los días domingos. Disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club de pádel.`,
+      text: `La presente liga interclubes de pádel se desarrolla entre los meses de marzo y diciembre, y está compuesta por dos torneos a disputarse los días domingos.
+En cada fecha, se jugarán dos enfrentamientos entre equipos, con dos clubes representados por sus respectivos equipos en cada jornada.`,
     },
     {
       title: "Modalidad de juego",
-      text: `En cada enfrentamiento entre equipos se jugará 2 dobles simultaneos o continuados, Doble 1 y Doble 2. Cada encuentro ganado sumará un punto, las series podrán quedar empatadas en la fase de grupos, se sumará 1 punto para cada equipo.
-En playoffs, en caso de empate se disputará un tercer punto, con duración de un set, conformado por los jugadores que cada capitán convoque, pudiendo incluir a jugadores que hayan disputado los 2 puntos anteriores.
-Cada jugador solo podrá disputar un encuentro en una misma serie.
-En caso de disputar los partidos de forma continuada, siempre se debe comenzar con el Doble 1 y la segunda tanda deberá comenzar no después de las 17hs.
+      text: `En cada enfrentamiento entre equipos se jugarán dos partidos de dobles, ya sea en simultáneo o de forma continuada: Doble 1 y Doble 2.
+      Cada partido se disputará al mejor de 3 sets, con punto de oro.
+      Cada partido ganado suma 1 punto para el equipo. Las series podrán terminar empatadas en la fase de grupos; en ese caso, cada equipo sumará 1 punto en la tabla.
+      En instancias de playoffs, si la serie termina empatada, se disputará un tercer punto definitorio, jugado a un solo set, con los jugadores que cada capitán elija. Se podrán incluir jugadores que ya hayan participado en los partidos anteriores.
+      Cada jugador podrá disputar solo un partido por serie.
+      En caso de jugarse los partidos de forma continuada, se deberá comenzar siempre con el Doble 1, y el segundo partido deberá iniciar a más tardar a las 17:00 hs.
       `,
     },
     {
       title: "Fase de grupos",
-      text: `El ranking de cada grupo se determinará en base a la cantidad de puntos obtenidos por cada equipo, es decir, por la cantidad de parciales ganados en cada serie. 
-      En caso de empate en puntos se desempatará por diferencia de sets y en el último caso diferencia de games. 
-      Todos los resultados podrán ser vistos en este sitio web.`,
+      text: `La posición de cada equipo en la tabla se determinará según la cantidad de puntos obtenidos, es decir, por la cantidad de partidos ganados en cada serie.
+En caso de empate en puntos, se definirá la posición por diferencia de sets. Si persiste la igualdad, se recurrirá a la diferencia de games.
+Todos los resultados estarán disponibles en este sitio web.`,
     },
     {
       title: "Formación",
@@ -35,23 +38,26 @@ En caso de disputar los partidos de forma continuada, siempre se debe comenzar c
     },
     {
       title: "Formación Incompleta",
-      text: `Si el equipo completo o algún jugador no se presentara a jugar la fecha correspondiente (WO) deberá avisar con un mínimo de 24 hs. al capitán rival por escrito al chat de capitanes de WhatsApp, de lo contrario deberá correr con los gastos que correspondan al equipo local, como ser alquiler de canchas. 
-      En caso de presentar WO en un doble, se disputará siempre el Doble 1.`,
+      text: `Si un equipo, o alguno de sus jugadores, no se presenta a disputar la fecha correspondiente (WO), deberá notificarlo con un mínimo de 24 horas de anticipación, por escrito, en el chat de capitanes de WhatsApp.
+De no hacerlo, el equipo ausente deberá abonar los gastos correspondientes al equipo local, tales como el alquiler de canchas.
+En caso de presentarse WO en uno de los dobles, se disputará siempre el Doble 1.x `,
     },
     {
       title: "Mala formación",
-      text: `En caso de incurrir en una mala formación de las parejas de dobles, se dará por perdida la serie por 0-6 0-6 en ambos dobles.`,
+      text: `Si un equipo incurre en una mala formación de las parejas de dobles, se considerará perdida la serie, adjudicando un resultado de 0-6, 0-6 en ambos partidos.`,
     },
     {
       title: "Días y Horarios",
-      text: `Se jugará los días domingo con horario a determinar por el equipo local en cada oportunidad, que deberá ser entre las 9:00 y las 17:00 hs.
+      text: `Los encuentros se disputarán los días domingo, en un horario a definir por el equipo local, el cual deberá estar comprendido entre las 9:00 y las 17:00 hs.
 
-      Los horarios deben informarse por el capitán del equipo local en el chat de capitanes de WhatsApp antes de las 17:00 hs. del miércoles de la semana correspondiente, de lo contrario se procederá a la quita de 1 punto de la serie al equipo local, sumándose 1 punto por cada día de atraso.`,
+El capitán del equipo local deberá informar el horario del encuentro en el chat de capitanes de WhatsApp antes del miércoles a las 17:00 hs de la semana correspondiente.
+En caso de no cumplir con este plazo, se aplicará una sanción de 1 punto en la serie al equipo local, sumando 1 punto adicional por cada día de retraso.`,
     },
     {
       title: "Lista de buena fe",
-      text: `El mejor jugador del equipo deberá ir primero en la lista, siguiendo este criterio para el resto de la lista, siendo el último jugador el de más bajo nivel.
-      Es responsabilidad de los capitanes chequear que estén todos sus jugadores y colocados en la posición que consideren correcta antes del comienzo del torneo.`,
+      text: `La lista de buena fe deberá estar ordenada de acuerdo al nivel de los jugadores: el mejor jugador del equipo deberá figurar primero, y así sucesivamente, siendo el último el de menor nivel.
+
+Es responsabilidad de cada capitán verificar que todos los jugadores estén incluidos y ubicados en el orden correspondiente antes del inicio del torneo.`,
     },
     {
       title: "Cantidad de jugadores por equipo",
@@ -59,17 +65,20 @@ En caso de disputar los partidos de forma continuada, siempre se debe comenzar c
     },
     {
       title: "Resultados y Formación",
-      text: `El capitán del equipo ganador será el encargado de cargar el resultado de la serie en capitanes.interclubesdepadel.com.ar antes del Martes a las 12:00 hs. de cada semana. Una vez realizada la carga, deberá compartir el enlace generado por el sistema en el grupo de WhatsApp de capitanes, indicando la serie correspondiente.  
+      text: `El capitán del equipo ganador será el responsable de cargar el resultado de la serie en la plataforma capitanes.interclubesdepadel.com.ar antes del martes a las 12:00 hs. de cada semana.
+Una vez realizada la carga, deberá compartir el enlace generado por el sistema en el grupo de WhatsApp de capitanes, indicando claramente a qué serie corresponde.
 
-Además, será obligatorio conservar la planilla en papel firmada por ambos capitanes, ya que en caso de cualquier reclamo, hasta 48 hs. desde el inicio de la serie, esta será el único documento válido para verificar la información.  
+Además, será obligatorio conservar la planilla en papel, firmada por ambos capitanes, ya que, en caso de cualquier reclamo (hasta 48 horas desde el inicio de la serie), dicho documento será el único válido para verificar la información.
 
-El incumplimiento de la carga por parte del capitán del equipo ganador de la serie resultará en la anulación de los puntos obtenidos por su equipo, mientras que el equipo rival mantendrá los puntos ganados en cancha. No habrá posibilidad de reclamo una vez aplicada la sanción.`,
+El incumplimiento de la carga por parte del capitán del equipo ganador resultará en la anulación de los puntos obtenidos por su equipo, mientras que el equipo rival conservará los puntos ganados en cancha.
+No habrá posibilidad de reclamo una vez aplicada la sanción.`,
     },
     {
       title: "Retiro",
-      text: `En caso de que un partido se viera interrumpido por el retiro de uno de los jugadores, el resultado se complementará a favor del ganador con todos los games que correspondan para llegar al resultado final 
-Ejemplo Si al momento de la interrupción el resultado parcial es 63 21, el resultado final será 63 61
-Este último resultado es el que se deberá tomarse en cuenta en la confección de un desempate por porcentajes de set o games.`,
+      text: `En caso de que un partido se vea interrumpido por el retiro de uno de los jugadores, el resultado se completará a favor del equipo ganador, adjudicándole todos los games necesarios para alcanzar el resultado final del partido.
+
+Ejemplo: si al momento del retiro el resultado parcial es 6-3, 2-1, el resultado final se consignará como 6-3, 6-1.
+Este resultado será el que deberá tomarse en cuenta para la confección de un eventual desempate por porcentaje de sets o games.`,
     },
 
     {
@@ -86,7 +95,7 @@ Por eso, seguimos promoviendo los terceros tiempos como un componente esencial d
     },
     {
       title: "Capitanía",
-      text: ` La organización se reserva el derecho a solicitar cambio de capitanía en caso de considerarlo necesario o bien de solicitar la incorporación de un subcapitan al chat de capitanes en reemplazo del capitán, a efectos de facilitar la comunicación y gestionar de manera más diligente las cuestiones administrativas referentes a la organización de cada serie a desarrollarse. Este sub capitán/a deberá ser un jugador/a integrante del plantel.`,
+      text: `La organización se reserva el derecho a solicitar cambio de capitanía en caso de considerarlo necesario o bien de solicitar la incorporación de un subcapitan al chat de capitanes en reemplazo del capitán, a efectos de facilitar la comunicación y gestionar de manera más diligente las cuestiones administrativas referentes a la organización de cada serie a desarrollarse.`,
     },
     {
       title: "Feriados largos",
@@ -95,9 +104,8 @@ Por eso, seguimos promoviendo los terceros tiempos como un componente esencial d
 
     {
       title: "Reinicio de serie reprogramada",
-      text: `Al reprogramarse una serie que no ha comenzado, por razones climáticas, y/o algún otro motivo, esta se
-      considerará como una serie nueva en todos los aspectos. Esto incluye la anulación de cualquier configuración
-      previa, tales como formaciones de equipos, selección de jugadores, y el orden de los partidos.`,
+      text: `Cuando una serie que aún no ha comenzado sea reprogramada por razones climáticas u otros motivos, se considerará como una nueva serie en todos los aspectos.
+Esto implica la anulación de cualquier configuración previa, incluyendo la formación de los equipos, la selección de jugadores y el orden de los partidos.`,
     },
     {
       title: "Suspensión de un partido por falta de tiempo",
@@ -105,7 +113,7 @@ Por eso, seguimos promoviendo los terceros tiempos como un componente esencial d
     },
     {
       title: "Suspensión de partidos comenzados",
-      text: `Los partidos suspendidos por razones climáticas, y/o algún otro motivo, ya iniciados, serán reprogramados por esta asociación, con los parciales y los jugadores participantes. En caso de no presentase alguno de los jugadores en la fecha reprogramada, el parcial en disputa será considerado perdido por abandono, debiendo continuar los demás que faltasen terminar.`,
+      text: `Los partidos suspendidos por razones climáticas, y/o algún otro motivo, ya iniciados, serán reprogramados por esta orgnización, con los parciales y los jugadores participantes. En caso de no presentase alguno de los jugadores en la fecha reprogramada, el parcial en disputa será considerado perdido por abandono, debiendo continuar los demás que faltasen terminar.`,
     },
     {
       title: "Inpuntualidad de jugadores",
@@ -131,14 +139,13 @@ Por eso, seguimos promoviendo los terceros tiempos como un componente esencial d
     {
       title: "Instalaciones necesarias",
       text: `El club deberá poder ofrecer para jugar un partido completo un mínimo de 2 canchas reglamentarias de pádel, vestuarios con comodidades suficientes.
-      Dichas canchas deberán ser de un mismo tipo de superficie, las que serán previamente aprobadas por esta asociación. 
-  `,
+      Dichas canchas deberán ser de un mismo tipo de superficie, las que serán previamente aprobadas por esta asociación.  `,
     },
 
     {
       title: "Excepciones a la programación",
       text: `Cuando por coincidencia de fechas con
-      la realización del circuito de tenis algún club tenga compromisos asumidos con anterioridad, podrá solicitar a  esta asociación, a considerar, la no programación de partidos, la misma deberá ser presentada con anterioridad a la realización de la programación oficial e indicará fechas ciertas de los compromisos asumidos.
+      la realización del circuito de tenis algún club tenga compromisos asumidos con anterioridad, podrá solicitar a esta asociación, a considerar, la no programación de partidos, la misma deberá ser presentada con anterioridad a la realización de la programación oficial e indicará fechas ciertas de los compromisos asumidos.
       Esta posibilidad solo podrá ser concedida por una vez, por torneo, y de manera excepcional. 
       Se hace saber que NO es obligatorio para la organización el otorgar dicha excepción pudiendo siempre la organización no hacer lugar al pedido. 
       En caso que algún club no haya hecho uso de dicha posibilidad dentro de un campeonato, pero que la organización encuentre dificultades para otorgarles dicha excepción habida cuenta de retrasos que complican el normal  desarrollo del torneo, la organización podrá negar dicha posibilidad mediante una simple notificación por razones organizativas, la cual será inapelable.`,
