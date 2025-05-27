@@ -40,7 +40,7 @@ Todos los resultados estarán disponibles en este sitio web.`,
       title: "Formación Incompleta",
       text: `Si un equipo, o alguno de sus jugadores, no se presenta a disputar la fecha correspondiente (WO), deberá notificarlo con un mínimo de 24 horas de anticipación, por escrito, en el chat de capitanes de WhatsApp.
 De no hacerlo, el equipo ausente deberá abonar los gastos correspondientes al equipo local, tales como el alquiler de canchas.
-En caso de presentarse WO en uno de los dobles, se disputará siempre el Doble 1.x `,
+En caso de presentarse WO en uno de los dobles, se disputará siempre el Doble 1.`,
     },
     {
       title: "Mala formación",
@@ -85,8 +85,7 @@ Este resultado será el que deberá tomarse en cuenta para la confección de un 
       title: "Tercer tiempo",
       text: `Si bien no son obligatorios, desde la organización lo alentamos y valoramos profundamente cuando se realizan. Creemos que son una parte fundamental del espíritu del torneo, ya que brindan un espacio para compartir entre jugadores, más allá del resultado deportivo.
 Estos momentos ayudan a fortalecer los lazos entre clubes, fomentan el respeto, la camaradería y crean un ambiente mucho más cálido y humano en la competencia.
-Por eso, seguimos promoviendo los terceros tiempos como un componente esencial de cada jornada, y alentamos a los equipos locales a organizar algo simple pero significativo para recibir a sus visitantes, compartiendo los gastos. Un pequeño gesto puede dejar una gran impresión, especialmente en fechas donde algunos equipos deben hacer largos viajes.
-.`,
+Por eso, seguimos promoviendo los terceros tiempos como un componente esencial de cada jornada, y alentamos a los equipos locales a organizar algo simple pero significativo para recibir a sus visitantes, compartiendo los gastos. Un pequeño gesto puede dejar una gran impresión, especialmente en fechas donde algunos equipos deben hacer largos viajes.`,
     },
     {
       title: "Coaching",
