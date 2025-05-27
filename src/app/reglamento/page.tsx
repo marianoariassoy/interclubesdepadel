@@ -9,73 +9,57 @@ const page = () => {
   const data = [
     {
       title: "",
-      text: `La presente liga de clubes se desarrolla desde el mes de marzo hasta el mes de diciembre en 2 torneos a jugarse los días sábados y domingos, según corresponda. Disputando en cada fecha 3 encuentros entre 2 equipos representantes de un club de tenis.`,
+      text: `La presente liga de clubes se desarrolla desde el mes de marzo hasta el mes de diciembre en 2 torneos a jugarse los días domingos. Disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club de pádel.`,
     },
     {
       title: "Modalidad de juego",
-      text: `En las categorías Damas, Libres y +35 se jugará 1 single y 2 dobles.
-      Todos los partidos se disputarán al mejor de 3 sets con tie break. El tercer set será supertie break a 10 puntos con diferencia de dos.
-      Los 3 encuentros deberán disputarse en simultaneo comenzando al mismo tiempo, salvo clubes con 2 canchas (ver el reglamento).
-
-      En las categorías Mixtas se jugará 2 dobles mixtos y simultaneos. Las series podrán quedar empatadas en la primera fase, se sumará 1 punto para cada equipo.
-En playoffs, en caso de empate se disputará un tercer punto, con duración de un set, conformado por los jugadores que cada capitán convoque, pudiendo incluir a jugadores que hayan disputado los 2 puntos anteriores, siempre respetando que la integración sea mixta.
+      text: `En cada enfrentamiento entre equipos se jugará 2 dobles simultaneos o continuados, Doble 1 y Doble 2. Cada encuentro ganado sumará un punto, las series podrán quedar empatadas en la fase de grupos, se sumará 1 punto para cada equipo.
+En playoffs, en caso de empate se disputará un tercer punto, con duración de un set, conformado por los jugadores que cada capitán convoque, pudiendo incluir a jugadores que hayan disputado los 2 puntos anteriores.
+Cada jugador solo podrá disputar un encuentro en una misma serie.
+En caso de disputar los partidos de forma continuada, siempre se debe comenzar con el Doble 1 y la segunda tanda deberá comenzar no después de las 17hs.
       `,
     },
     {
-      title: "Puntuación",
-      text: `Cada encuentro ganado sumará un punto, es decir, ganando los 3 encuentros de la serie se sumarán 3 puntos al equipo vencedor, ganando 2 a 1 se sumarán 2 puntos al equipo vencedor y 1 punto al equipo rival, por lo que ahora todos los encuentros ganados suman puntos.
-      En caso de empate por puntos se desempatará por mayor cantidad de series ganadas, de persistir el empate, se desempatará por diferencia de sets y en el último caso diferencia de games. 
+      title: "Fase de grupos",
+      text: `El ranking de cada grupo se determinará en base a la cantidad de puntos obtenidos por cada equipo, es decir, por la cantidad de parciales ganados en cada serie. 
+      En caso de empate en puntos se desempatará por diferencia de sets y en el último caso diferencia de games. 
       Todos los resultados podrán ser vistos en este sitio web.`,
     },
     {
       title: "Formación",
-      text: `En las categorías en las cuales se disputen 1 partido de single y 2 partidos de dobles, de los 4 doblistas convocados para la serie el de mejor ranking deberá ser asignado obligatoriamente para jugar el doble 1.`,
+      text: `De los 4 doblistas convocados para cada serie el de mejor ranking deberá ser asignado obligatoriamente para jugar el Doble 1.`,
     },
     {
       title: "Pelotas",
-      text: `El equipo local será el encargado de proveer las pelotas para el encuentro. Se podrán usar tubos o pelotas sueltas hasta con un uso, de lo contrario el equipo rival podrá pedir cambio de pelotas o pedir WO. 
-      Las pelotas "con un uso" deben tener presión de pelota nueva y en cuanto a la felpa debe verse la marca de la
-      pelota completa.`,
+      text: `El equipo local será el encargado de proveer las pelotas para el encuentro.`,
     },
     {
       title: "Formación Incompleta",
       text: `Si el equipo completo o algún jugador no se presentara a jugar la fecha correspondiente (WO) deberá avisar con un mínimo de 24 hs. al capitán rival por escrito al chat de capitanes de WhatsApp, de lo contrario deberá correr con los gastos que correspondan al equipo local, como ser alquiler de canchas. 
-      Se podrá presentar WO tanto de single y/o de doble 2, pudiéndose disputar el resto de el o los parciales.`,
+      En caso de presentar WO en un doble, se disputará siempre el Doble 1.`,
     },
     {
       title: "Mala formación",
-      text: `En caso de incurrir en una mala formación de las parejas de dobles, los puntos perdidos serán exclusivamente los de los paciales involucrados (doble 1 y doble 2). El partido de single no se verá afectado por esta sanción, por lo que se mantendrá el resultado jugado en cancha.`,
+      text: `En caso de incurrir en una mala formación de las parejas de dobles, se dará por perdida la serie por 0-6 0-6 en ambos dobles.`,
     },
     {
       title: "Días y Horarios",
-      text: `Las categorías de Damas jugarán los días sábados y domingos en un horario a determinar por el equipo local en cada oportunidad, que deberá ser los sábados entre las 13 y las 17 hs. y los domingos entre las 9 y las 17 hs.
-      La categoría Caballeros Segunda +35, Caballeros Tercera +35 y Mixto Tercera, jugarán los días sábados en un horario a determinar por el equipo local en cada oportunidad, que deberá ser entre las 13 y las 17 hs. 
-      El resto de las categorías jugarán los días domingos en un horario a determinar por el equipo local en cada oportunidad, que deberá ser entre las 9 y las 17 hs.
+      text: `Se jugará los días domingo con horario a determinar por el equipo local en cada oportunidad, que deberá ser entre las 9:00 y las 17:00 hs.
 
       Los horarios deben informarse por el capitán del equipo local en el chat de capitanes de WhatsApp antes de las 17:00 hs. del miércoles de la semana correspondiente, de lo contrario se procederá a la quita de 1 punto de la serie al equipo local, sumándose 1 punto por cada día de atraso.`,
     },
     {
       title: "Lista de buena fe",
       text: `El mejor jugador del equipo deberá ir primero en la lista, siguiendo este criterio para el resto de la lista, siendo el último jugador el de más bajo nivel.
-      Es responsabilidad de los capitanes chequear que estén todos sus jugadores y colocados en la posición que consideren correcta antes del comienzo del torneo. En las categorías con límite de edad, tercera y segunda +35, se considerará que el jugador está dentro de la categoría, al cumplir años dentro del año calendario de inicio del torneo.`,
+      Es responsabilidad de los capitanes chequear que estén todos sus jugadores y colocados en la posición que consideren correcta antes del comienzo del torneo.`,
     },
     {
       title: "Cantidad de jugadores por equipo",
-      text: `El límite de integrantes de la lista de buena fe es de 20 jugadores.`,
-    },
-    {
-      title: "Equivalencias de niveles en otros torneos",
-      text: `Quinta Libre y Cuarta Damas: Jugadores categoría 125, C. 
-      Cuarta Libre, Tercera +35, 
-      Tercera Damas: Jugadores categoría 250 a 500, B2, B-. 
-      Tercera Libre: Jugadores categoría 500 a 750, B1 
-      Segunda Libre: Jugadores categoría 750 a 1000, A1, A2 
-      Primera Libre: Jugadores categoría 1000, Super A.
-      `,
+      text: `El límite de integrantes de la lista de buena fe es de 15 jugadores.`,
     },
     {
       title: "Resultados y Formación",
-      text: `El capitán del equipo ganador será el encargado de cargar el resultado de la serie en capitanes.imltenis.com.ar antes del Martes a las 12:00 hs. de cada semana. Una vez realizada la carga, deberá compartir el enlace generado por el sistema en el grupo de WhatsApp de capitanes, indicando la serie correspondiente.  
+      text: `El capitán del equipo ganador será el encargado de cargar el resultado de la serie en capitanes.interclubesdepadel.com.ar antes del Martes a las 12:00 hs. de cada semana. Una vez realizada la carga, deberá compartir el enlace generado por el sistema en el grupo de WhatsApp de capitanes, indicando la serie correspondiente.  
 
 Además, será obligatorio conservar la planilla en papel firmada por ambos capitanes, ya que en caso de cualquier reclamo, hasta 48 hs. desde el inicio de la serie, esta será el único documento válido para verificar la información.  
 
@@ -108,12 +92,7 @@ Por eso, seguimos promoviendo los terceros tiempos como un componente esencial d
       title: "Feriados largos",
       text: `Queda a criterio de la organización la programación de partidos en dichos días.`,
     },
-    {
-      title: "En caso de lluvia",
-      text: `El equipo local deberá avisar como mínimo dos horas antes del horario del partido al chat de capitanes de WhatsApp que sus canchas están en condiciones para jugar. Pasado este límite, el equipo visitante no está en la obligación de aceptar ir a jugar.
-      La reprogramación se pasará para el final del torneo, salvo que los equipos involucrados acuerden y
-      decidan jugar antes, informando previamente a esta organización.`,
-    },
+
     {
       title: "Reinicio de serie reprogramada",
       text: `Al reprogramarse una serie que no ha comenzado, por razones climáticas, y/o algún otro motivo, esta se
@@ -151,22 +130,17 @@ Por eso, seguimos promoviendo los terceros tiempos como un componente esencial d
     },
     {
       title: "Instalaciones necesarias",
-      text: `El club deberá poder ofrecer para jugar un partido completo un mínimo de 2 canchas reglamentarias de tenis, vestuarios con comodidades suficientes.
+      text: `El club deberá poder ofrecer para jugar un partido completo un mínimo de 2 canchas reglamentarias de pádel, vestuarios con comodidades suficientes.
       Dichas canchas deberán ser de un mismo tipo de superficie, las que serán previamente aprobadas por esta asociación. 
-      Los 3 encuentros deberán disputarse en el mismo horario, con excepción de clubes con 2 canchas, ver apartado`,
+  `,
     },
-    {
-      title: "Clubes con 2 canchas",
-      text: `En caso de disputarse una serie en un club con  dos canchas, cada jugador solo podrá disputar un encuentro en una misma serie. La serie se desarrollará en dos tandas que deben jugarse una a continuación de la otra, sin excepcion. La segunda tanda deberá comenzar no despues de las 17hs.
 
-      Siempre debe programarse la serie evitando disputar en primer turno el doble 2 sin estar acompañado del doble 1, de esta manera evitando posibles WO de doble 1 de ultimo momento, que de esa manera anularía la serie. `,
-    },
     {
       title: "Excepciones a la programación",
       text: `Cuando por coincidencia de fechas con
-      la realización del circuito de tenis algún club tenga compromisos asumidos con anterioridad, podrá solicitar a  esta asociación, a considerar, la no programación de partidos, la misma deberá ser presentada con anterioridad a  la realización de la programación oficial e indicará fechas ciertas de los compromisos asumidos.
+      la realización del circuito de tenis algún club tenga compromisos asumidos con anterioridad, podrá solicitar a  esta asociación, a considerar, la no programación de partidos, la misma deberá ser presentada con anterioridad a la realización de la programación oficial e indicará fechas ciertas de los compromisos asumidos.
       Esta posibilidad solo podrá ser concedida por una vez, por torneo, y de manera excepcional. 
-      Se hace saber que NO  es obligatorio para la organización el otorgar dicha excepción pudiendo siempre la organización no hacer lugar al pedido. 
+      Se hace saber que NO es obligatorio para la organización el otorgar dicha excepción pudiendo siempre la organización no hacer lugar al pedido. 
       En caso que algún club no haya hecho uso de dicha posibilidad dentro de un campeonato, pero que la organización encuentre dificultades para otorgarles dicha excepción habida cuenta de retrasos que complican el normal  desarrollo del torneo, la organización podrá negar dicha posibilidad mediante una simple notificación por razones organizativas, la cual será inapelable.`,
     },
 
@@ -224,10 +198,6 @@ Por eso, seguimos promoviendo los terceros tiempos como un componente esencial d
       text: `La organización se reserva el derecho a modificar el presente reglamento cuando sea imperioso establecer, regular o fijar conductas o acciones que puedan generar conflictos o diversas interpretaciones con el objeto de conducir a un mejor desenvolvimiento de las diversas competiciones.
       Para el supuesto caso que pudiera darse una laguna en la normativa o posible doble interpretación, esta
       organización resolverá puntualmente la cuestión en conflicto de acuerdo a su leal saber y entender, notificando a las partes que pudieran estar involucradas. La decisión será inapelable por las partes que pudieran estar involucradas y generará un precedente que será utilizado para aclaración de las posibles normas en conflicto.`,
-    },
-    {
-      title: "",
-      text: `Ultima actualización: 2025-04-14`,
     },
   ];
 
