@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s - Interclubes DePádel",
   },
   description:
-    "Liga de clubes de pádel desarrollada desde el mes de Marzo hasta el mes de Diciembre en 2 torneos a jugarse los días Domingos, disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club.",
+    "La presente liga interclubes de pádel se desarrolla entre los meses de marzo y diciembre, y está compuesta por dos torneos a disputarse los días domingos.En cada fecha, se jugarán dos enfrentamientos entre equipos, con dos clubes representados por sus respectivos equipos en cada jornada.",
   icons: {
     icon: "/assets/favicon.png",
     shortcut: "/assets/favicon.png",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     url: "https://interclubesdepadel.com.ar",
     title: "Interclubes DePádel",
     description:
-      "Liga de clubes de pádel desarrollada desde el mes de Marzo hasta el mes de Diciembre en 2 torneos a jugarse los días Domingos, disputando en cada fecha 2 encuentros entre 2 equipos representantes de un club.",
+      "La presente liga interclubes de pádel se desarrolla entre los meses de marzo y diciembre, y está compuesta por dos torneos a disputarse los días domingos. En cada fecha, se jugarán dos enfrentamientos entre equipos, con dos clubes representados por sus respectivos equipos en cada jornada.",
     images: [
       {
         url: "/assets/cover.png",
