@@ -1,9 +1,9 @@
 export const categories = [
   {
-    name: "Damas C8/C9",
-    url: "/soon",
-    slug: "caballeros-quinta",
-    id: 11,
+    name: "Damas C7",
+    url: "/torneos/2",
+    slug: "damas-septima",
+    id: 2,
   },
   {
     name: "Caballeros C5",
@@ -11,8 +11,24 @@ export const categories = [
     slug: "caballeros-quinta",
     id: 1,
   },
-  { name: "Caballeros C6/C7", url: "/soon", slug: "segunda-libre", id: 2 },
-  { name: "Caballeros C8/C9", url: "/soon", slug: "segunda-libre", id: 3 },
+  {
+    name: "Caballeros C6",
+    url: "/torneos/3",
+    slug: "caballeros-sexta",
+    id: 3,
+  },
+  {
+    name: "Caballeros C7",
+    url: "/soon",
+    slug: "caballeros-sexta",
+    id: 10,
+  },
+  {
+    name: "Caballeros C8",
+    url: "/torneos/4",
+    slug: "caballeros-octava",
+    id: 4,
+  },
 ];
 
 export const menu = [
