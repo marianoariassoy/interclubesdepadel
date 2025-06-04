@@ -6,7 +6,7 @@ interface Item {
   image: string;
   title: string;
   link: string;
-  active: boolean;
+  active?: boolean;
 }
 
 const TitleRow = ({ num, image, title, link, active }: Item) => {
