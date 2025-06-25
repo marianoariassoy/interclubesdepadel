@@ -3,6 +3,12 @@ export const categories = [
     name: "Damas C7",
     url: "/torneos/2",
     slug: "damas-septima",
+    id: 1,
+  },
+  {
+    name: "Damas C8",
+    url: "/torneos/5",
+    slug: "damas-octava",
     id: 2,
   },
   {
@@ -19,8 +25,8 @@ export const categories = [
   },
   {
     name: "Caballeros C7",
-    url: "/soon",
-    slug: "caballeros-sexta",
+    url: "/torneos/7",
+    slug: "caballeros-septima",
     id: 10,
   },
   {
