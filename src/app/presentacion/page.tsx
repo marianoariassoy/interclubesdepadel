@@ -10,9 +10,9 @@ const Presentacion = () => {
     },
     {
       title: "📅 Fechas",
-      text: `Inicio de torneo: <strong>5 de Julio</strong><br />
-Cierre de Inscripción: <strong>22 de Junio</strong><br />
-Cierre de listas de buena fe: <strong>3 de Julio</strong>`,
+      text: `Inicio de torneo: <strong>9 de Agosto</strong><br />
+Cierre de Inscripción: <strong>29 de Julio</strong><br />
+Cierre de listas de buena fe: <strong>2 de Agosto</strong>`,
     },
     {
       title: "🏆 ¿Cómo es el formato de juego y del torneo?",
@@ -23,8 +23,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`,
     },
     {
       title: "🚀 ¿En qué categorías puedo inscribirme?",
-      text: `<strong>Caballeros y Damas:</strong> 8va a 3ra <br/> 
-      <strong>Mixtos:</strong> M15 M13 M11 M9.  
+      text: `<strong>Caballeros y Damas:</strong> 8va a 5ta.  
       `,
     },
     {
@@ -45,7 +44,7 @@ Cierre de listas de buena fe: <strong>3 de Julio</strong>`,
     },
     {
       title: "🤔 ¿Hay un mínimo de fechas o encuentros a disputar?",
-      text: `No podemos saber con exactitud cuantas fechas se disputarán por categoría pero garantizamos un minimo de 8 fechas por equipo.`,
+      text: `No podemos saber con exactitud cuantas fechas se disputarán por categoría pero garantizamos un minimo de 6 fechas por equipo.`,
     },
     {
       title: "🎉 ¿Que premios hay?",
