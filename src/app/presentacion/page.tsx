@@ -23,7 +23,8 @@ Cierre de listas de buena fe: <strong>2 de Agosto</strong>`,
     },
     {
       title: "🚀 ¿En qué categorías puedo inscribirme?",
-      text: `<strong>Caballeros y Damas:</strong> 8va a 5ta.  
+      text: `<strong>Damas:</strong> 8va y 7ma. <br/>
+      <strong>Caballeros:</strong> 8va a 5ta. 
       `,
     },
     {
